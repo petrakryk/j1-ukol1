@@ -11,11 +11,7 @@ public class HlavniProgram {
 
   public void start() {
     zofka = new Turtle();
-    nakresliOsmiuhelnik();
-    zofka.move(130);
-    nakresliKolecko();
-    zofka.move(150);
-    nakresliSlunicko();
+    nakresliPrasatko();
   }
 
   public void nakresliDomecek() {
@@ -60,7 +56,7 @@ public class HlavniProgram {
     zofka.move(30);
     zofka.penUp();
   }
-
+/*
   public void nakresliOsmiuhelnik() {
     for (int i = 0; i < 8; i++) {
       zofka.turnRight(45);
@@ -94,4 +90,5 @@ public class HlavniProgram {
     zofka.turnRight(30);
     }
   }
+  */
 }
